@@ -1,0 +1,38 @@
+body {
+    height: 100%;
+    background-image: url("../Pokedex.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Pokemon Solid', sans-serif;
+    margin-top: 20px;
+}
+
+#pokedex {
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-top: 13%;
+  justify-content: space-evenly; /* Alinea el contenido a la derecha */
+
+}
+
+#pokedex-search {
+  margin-left: 5%;
+  background-color: green; /* Fondo verde */
+  color: white; /* Texto blanco para contraste */
+  font-family: 'Digital-7', sans-serif; /* Fuente digital */
+  font-size: 20px; /* Tamaño del texto */
+  padding: 10px; /* Espaciado interno */
+  padding-left: 10px;;
+  border: none; /* Sin bordes */
+  border-radius: 5px; /* Bordes redondeados */
+  outline: none; /* Sin contorno al hacer clic */
+}
